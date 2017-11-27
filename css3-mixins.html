@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>MIXINS</title>
+
+	@mixin border-radius($radius)
+	     border-radius:$radius;
+
+	.sample-box1 {
+        @include border-radius:10px;
+    }
+
+    .sample-box2 {
+        @include border-radius:10px;
+    }
+
+    .sample-box3 {
+        @include border-radius:10px;
+    }
+
+</head>
+<body>
+	<div class="sample-box1"></div>
+    <div class="sample-box2"></div>
+    <div class="sample-box2"></div>
+</body>
+</html>
